@@ -1,20 +1,72 @@
 
+import {
+  SiReact,
+  SiLaravel,
+  SiNodedotjs,
+  SiMysql,
+  SiGit,
+  SiGithub
+} from "react-icons/si";
+
 const technologies = [
   {
-    category: "BACKEND",
-    items: ["PHP", "CodeIgniter", "Laravel"]
+    category: "FRONTEND",
+    main: [
+      { name: "React", icon: SiReact }
+    ],
+    description: "Interfaces y experiencias de usuario.",
+    secondary: [
+      "Vue.js",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Next.js",
+      "TypeScript",
+      "Flutter"
+    ]
   },
   {
-    category: "FRONTEND",
-    items: ["HTML", "CSS", "JavaScript", "React"]
+    category: "BACKEND",
+    main: [
+      { name: "Laravel", icon: SiLaravel },
+      { name: "Node.js", icon: SiNodedotjs }
+    ],
+    description: "Lógica de negocio, APIs y aplicaciones.",
+    secondary: [
+      "PHP",
+      "CodeIgniter",
+      "Express.js",
+      "Java",
+      "Spring Boot"
+    ]
   },
   {
     category: "DATABASE",
-    items: ["MySQL", "Oracle"]
+    main: [
+      { name: "MySQL", icon: SiMysql }
+    ],
+    description: "Gestión y almacenamiento de datos.",
+    secondary: [
+      "MongoDB",
+      "Oracle",
+      "SQL"
+    ]
   },
   {
     category: "TOOLS & WORKFLOW",
-    items: ["Git", "GitHub", "Jira", "Trello"]
+    main: [
+      { name: "Git", icon: SiGit },
+      { name: "GitHub", icon: SiGithub }
+    ],
+    description: "Control de versiones y trabajo colaborativo.",
+    secondary: [
+      "Docker",
+      "Jira",
+      "Trello",
+      "Vercel",
+      "Claude AI"
+    ]
   }
 ];
 
@@ -23,10 +75,10 @@ function TechStack() {
     <section className="section" id="tecnologias">
       <div className="section-heading">
         <p className="section-label">02 / TECNOLOGÍAS</p>
-        <h2>Herramientas de trabajo.</h2>
+        <h2>Mi stack tecnológico.</h2>
         <p className="section-description">
-          Tecnologías y herramientas que forman parte
-          de mi formación y desarrollo profesional.
+          Herramientas y tecnologías que utilizo para
+          diseñar, desarrollar y construir aplicaciones web.
         </p>
       </div>
 
@@ -35,8 +87,23 @@ function TechStack() {
           <div className="tech-card" key={group.category}>
             <p>{group.category}</p>
 
+            <div className="tech-main">
+              {group.main.map(({ name, icon: Icon }) => (
+                <div className="tech-main-item" key={name}>
+                  <Icon className="tech-icon" aria-hidden="true" />
+                  <span>{name}</span>
+                </div>
+              ))}
+            </div>
+
+            <p className="tech-description">
+              {group.description}
+            </p>
+
+            <div className="tech-divider"></div>
+
             <div className="tech-list">
-              {group.items.map((tech) => (
+              {group.secondary.map((tech) => (
                 <span key={tech}>{tech}</span>
               ))}
             </div>
@@ -45,7 +112,7 @@ function TechStack() {
       </div>
 
       <p className="tech-note">
-        Actualmente profundizando en Laravel y React.
+        Un stack en constante evolución, impulsado por el aprendizaje y la práctica.
       </p>
     </section>
   );

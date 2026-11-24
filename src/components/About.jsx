@@ -10,29 +10,43 @@ function About() {
       <div className="about-content">
         <div className="about-text">
           <p>
-            Soy desarrollador enfocado en backend y en la
-            construcción de aplicaciones web.
+            Soy desarrollador Full Stack, con mayor orientación
+            al desarrollo Frontend y especial interés en crear
+            interfaces modernas, funcionales y centradas en
+            la experiencia del usuario.
           </p>
 
           <p>
-            Mi experiencia de aprendizaje incluye PHP,
-            CodeIgniter, bases de datos y herramientas
-            de desarrollo como Git y GitHub.
+            Trabajo con tecnologías como React, Vue.js y
+            JavaScript, complementando mis conocimientos con
+            herramientas Backend como PHP, CodeIgniter y
+            Node.js. Me interesa construir soluciones completas,
+            desde la interfaz hasta la lógica de negocio y la
+            integración con bases de datos y APIs.
           </p>
 
           <p>
-            Actualmente estoy profundizando mis conocimientos
-            en Laravel y React, desarrollando proyectos propios
-            para fortalecer mis habilidades técnicas.
+            También incorporo herramientas de desarrollo
+            colaborativo, control de versiones y asistencia
+            mediante inteligencia artificial para analizar
+            soluciones, optimizar mi flujo de trabajo y
+            mejorar la calidad del código.
+          </p>
+
+          <p>
+            Actualmente continúo ampliando mis conocimientos
+            y desarrollando proyectos propios que me permitan
+            afrontar nuevos desafíos y seguir creciendo
+            profesionalmente.
           </p>
         </div>
 
         <div className="about-highlight">
           <span className="highlight-symbol">{`{ }`}</span>
-          <h3>Backend first.</h3>
+          <h3>Full Stack mindset.</h3>
           <p>
-            Código organizado, soluciones prácticas
-            y aprendizaje constante.
+            Interfaces cuidadas, lógica bien estructurada
+            y soluciones pensadas de principio a fin.
           </p>
         </div>
       </div>

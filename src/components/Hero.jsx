@@ -9,23 +9,24 @@ function Hero() {
         </div>
 
         <p className="hero-eyebrow">
-          JUNIOR DEVELOPER · BACKEND FOCUSED
+          FULL STACK DEVELOPER
         </p>
 
         <h1>
-          Construyendo soluciones,
-          <span> línea por línea.</span>
+          Construyo experiencias digitales
+          <span> de principio a fin.</span>
         </h1>
 
         <p className="hero-description">
-          Soy desarrollador enfocado en backend y en la
-          creación de aplicaciones web. Me interesa construir
-          soluciones funcionales, escalables y bien estructuradas.
+          Soy desarrollador Full Stack, con mayor orientación al
+          Frontend. Diseño y desarrollo interfaces modernas y
+          funcionales, integrando tecnologías Backend para crear
+          aplicaciones completas.
         </p>
 
         <div className="hero-actions">
           <a href="#proyectos" className="button-primary">
-            Explorar proyectos ↗
+            Ver proyectos ↗
           </a>
 
           <a href="#contacto" className="button-secondary">
@@ -34,11 +35,11 @@ function Hero() {
         </div>
 
         <div className="hero-stack">
-          <span>PHP</span>
-          <span>Laravel</span>
-          <span>MySQL</span>
+          <span>React</span>
+          <span>Vue.js</span>
           <span>JavaScript</span>
-          <span>Git</span>
+          <span>PHP</span>
+          <span>Node.js</span>
         </div>
       </div>
 
@@ -50,19 +51,47 @@ function Hero() {
               <span></span>
               <span></span>
             </div>
-            <span>developer.php</span>
+            <span>developer.js</span>
           </div>
 
           <div className="terminal-body">
-            <p><span className="code-muted">01</span> <span className="code-purple">class</span> Developer</p>
-            <p><span className="code-muted">02</span> {"{"}</p>
-            <p><span className="code-muted">03</span> &nbsp; public $name = <span className="code-green">"Ezequiel"</span>;</p>
-            <p><span className="code-muted">04</span> &nbsp; public $focus = <span className="code-green">"Backend"</span>;</p>
-            <p><span className="code-muted">05</span> &nbsp; public $stack = [</p>
-            <p><span className="code-muted">06</span> &nbsp;&nbsp; <span className="code-green">"PHP"</span>, <span className="code-green">"Laravel"</span>,</p>
-            <p><span className="code-muted">07</span> &nbsp;&nbsp; <span className="code-green">"MySQL"</span></p>
-            <p><span className="code-muted">08</span> &nbsp; ];</p>
-            <p><span className="code-muted">09</span> {"}"}</p>
+            <p>
+              <span className="code-muted">01</span>{" "}
+              <span className="code-purple">const</span> developer = {"{"}
+            </p>
+            <p>
+              <span className="code-muted">02</span> &nbsp; name:{" "}
+              <span className="code-green">"Ezequiel"</span>,
+            </p>
+            <p>
+              <span className="code-muted">03</span> &nbsp; role:{" "}
+              <span className="code-green">"Full Stack"</span>,
+            </p>
+            <p>
+              <span className="code-muted">04</span> &nbsp; frontend: [
+            </p>
+            <p>
+              <span className="code-muted">05</span> &nbsp;&nbsp;{" "}
+              <span className="code-green">"React"</span>,{" "}
+              <span className="code-green">"Vue.js"</span>
+            </p>
+            <p>
+              <span className="code-muted">06</span> &nbsp; ],
+            </p>
+            <p>
+              <span className="code-muted">07</span> &nbsp; backend: [
+            </p>
+            <p>
+              <span className="code-muted">08</span> &nbsp;&nbsp;{" "}
+              <span className="code-green">"PHP"</span>,{" "}
+              <span className="code-green">"Node.js"</span>
+            </p>
+            <p>
+              <span className="code-muted">09</span> &nbsp; ]
+            </p>
+            <p>
+              <span className="code-muted">10</span> {"}"};
+            </p>
             <p className="terminal-cursor">_</p>
           </div>
         </div>

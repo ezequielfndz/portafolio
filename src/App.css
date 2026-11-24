@@ -705,3 +705,232 @@
     padding: 22px 0;
   }
 }
+
+/* TECH STACK - MAIN TECHNOLOGIES */
+
+.tech-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.tech-description {
+  margin-top: 12px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.tech-divider {
+  height: 1px;
+  margin: 20px 0 16px;
+  background: var(--border);
+}
+
+.tech-complementary-label {
+  margin-bottom: 10px;
+  color: var(--text-secondary);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+.tech-main-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  background: rgba(128, 48, 65, 0.12);
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.tech-main-item:hover {
+  background: rgba(128, 48, 65, 0.2);
+}
+
+.tech-icon {
+  width: 21px;
+  height: 21px;
+  flex-shrink: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+}
+
+/* =================================
+   ATRAPADOS ENTRE TELAS - PREVIEW
+================================= */
+
+.store-preview {
+  min-height: 275px;
+  padding: 0 28px 24px;
+  background: #f4f0e9;
+  color: #25221f;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.store-preview-header {
+  min-height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px solid #ded8ce;
+}
+
+.store-preview-logo {
+  display: flex;
+  flex-direction: column;
+  color: #292522;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.store-preview-logo strong {
+  color: #803041;
+  font-size: 10px;
+  letter-spacing: 3px;
+}
+
+.store-preview-nav {
+  display: flex;
+  gap: 22px;
+  color: #625b54;
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+
+.store-preview-cart {
+  color: #292522;
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+
+.store-preview-hero {
+  padding: 28px 0 24px;
+  text-align: center;
+}
+
+.store-preview-hero p {
+  margin: 0 0 10px;
+  color: #803041;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.store-preview-hero h3 {
+  margin: 0;
+  color: #292522;
+  font-family: Georgia, serif;
+  font-size: clamp(20px, 3vw, 29px);
+  font-weight: 400;
+}
+
+.store-preview-hero > span {
+  display: block;
+  margin-top: 9px;
+  color: #746b62;
+  font-size: 11px;
+}
+
+.store-preview-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.store-product {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.store-product-image {
+  min-height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e5ddd2;
+}
+
+.store-product:nth-child(2) .store-product-image {
+  background: #ddd3c9;
+}
+
+.store-product:nth-child(3) .store-product-image {
+  background: #e9e1d8;
+}
+
+.store-product-image span {
+  color: #a69a8c;
+  font-family: Georgia, serif;
+  font-size: 24px;
+}
+
+.store-product > span {
+  color: #8a7c70;
+  font-size: 8px;
+  letter-spacing: 1px;
+}
+
+.store-product strong {
+  color: #292522;
+  font-family: Georgia, serif;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  .store-preview {
+    padding: 0 14px 18px;
+  }
+
+  .store-preview-header {
+    min-height: 58px;
+    gap: 10px;
+  }
+
+  .store-preview-nav {
+    display: none;
+  }
+
+  .store-preview-logo {
+    font-size: 11px;
+  }
+
+  .store-preview-logo strong {
+    font-size: 9px;
+  }
+
+  .store-preview-hero {
+    padding: 25px 0 20px;
+  }
+
+  .store-preview-products {
+    gap: 9px;
+  }
+
+  .store-product-image {
+    min-height: 65px;
+  }
+
+  .store-product > span {
+    font-size: 7px;
+  }
+
+  .store-product strong {
+    font-size: 9px;
+  }
+}

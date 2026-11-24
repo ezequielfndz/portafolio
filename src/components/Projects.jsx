@@ -6,58 +6,65 @@ function Projects() {
         <p className="section-label">03 / PROYECTOS</p>
         <h2>Desarrollando soluciones.</h2>
         <p className="section-description">
-          Proyectos personales orientados a resolver
-          problemas mediante tecnología.
+          Proyectos reales donde aplico mis conocimientos
+          para construir soluciones digitales.
         </p>
       </div>
 
       <article className="project-card">
         <div className="project-preview">
           <div className="project-preview-header">
-            <span>STOCKFLOW / DASHBOARD</span>
+            <span>ATRAPADOS ENTRE TELAS / E-COMMERCE</span>
             <span>01 — 2026</span>
           </div>
 
-          <div className="project-preview-content">
-            <div className="preview-sidebar">
-              <span className="preview-logo">S.</span>
-              <span>Dashboard</span>
-              <span>Productos</span>
-              <span>Inventario</span>
-              <span>Ventas</span>
+          <div className="store-preview">
+            <header className="store-preview-header">
+              <span className="store-preview-logo">
+                ATRAPADOS
+                <strong>ENTRE TELAS</strong>
+              </span>
+
+              <nav className="store-preview-nav">
+                <span>INICIO</span>
+                <span>PRODUCTOS</span>
+                <span>CONTACTO</span>
+              </nav>
+
+              <span className="store-preview-cart">
+                CARRITO (0)
+              </span>
+            </header>
+
+            <div className="store-preview-hero">
+              <p>COLECCIÓN / 2026</p>
+              <h3>Encontrá tu próximo favorito.</h3>
+              <span>Descubrí nuestra colección.</span>
             </div>
 
-            <div className="preview-dashboard">
-              <p>OVERVIEW / INVENTORY</p>
-              <h3>Inventory Management</h3>
-
-              <div className="preview-stats">
-                <div>
-                  <span>PRODUCTS</span>
-                  <strong>---</strong>
+            <div className="store-preview-products">
+              <div className="store-product">
+                <div className="store-product-image">
+                  <span>01</span>
                 </div>
-                <div>
-                  <span>STOCK VALUE</span>
-                  <strong>---</strong>
-                </div>
-                <div>
-                  <span>SALES</span>
-                  <strong>---</strong>
-                </div>
+                <span>PRODUCTO DESTACADO</span>
+                <strong>Tu próximo favorito</strong>
               </div>
 
-              <div className="preview-chart">
-                <span>STOCK ACTIVITY</span>
-                <div className="chart-bars">
-                  {[35, 55, 42, 75, 48, 88, 65, 100, 72, 58, 82, 68].map(
-                    (height, index) => (
-                      <span
-                        key={index}
-                        style={{ height: `${height}%` }}
-                      />
-                    )
-                  )}
+              <div className="store-product">
+                <div className="store-product-image">
+                  <span>02</span>
                 </div>
+                <span>NUEVA COLECCIÓN</span>
+                <strong>Diseño y estilo</strong>
+              </div>
+
+              <div className="store-product">
+                <div className="store-product-image">
+                  <span>03</span>
+                </div>
+                <span>DESTACADOS</span>
+                <strong>Explorá la tienda</strong>
               </div>
             </div>
           </div>
@@ -66,8 +73,10 @@ function Projects() {
         <div className="project-information">
           <div className="project-title-row">
             <div>
-              <p className="project-category">FEATURED PROJECT / 001</p>
-              <h3>StockFlow</h3>
+              <p className="project-category">
+                FEATURED PROJECT / 001
+              </p>
+              <h3>Atrapados Entre Telas</h3>
             </div>
 
             <span className="project-status">
@@ -77,24 +86,29 @@ function Projects() {
           </div>
 
           <p className="project-description">
-            Sistema web de gestión de inventario y ventas
-            pensado para pequeños comercios. El objetivo
-            es centralizar productos, movimientos de stock
-            y operaciones comerciales.
+            Desarrollo de una tienda online con sistema
+            de gestión de productos, carrito de compras
+            y procesamiento de pedidos. El proyecto
+            integra un frontend propio con un backend
+            desarrollado en Node.js y una base de datos
+            SQLite.
           </p>
 
           <div className="project-features">
-            <span>Gestión de productos</span>
-            <span>Control de inventario</span>
-            <span>Registro de ventas</span>
-            <span>Usuarios y permisos</span>
+            <span>Catálogo de productos</span>
+            <span>Carrito y pedidos</span>
+            <span>Control de stock</span>
+            <span>Panel administrativo</span>
+            <span>Gift cards</span>
+            <span>Seguridad y autenticación</span>
           </div>
 
           <div className="project-technologies">
-            <span>PHP</span>
-            <span>Laravel</span>
-            <span>MySQL</span>
+            <span>HTML</span>
+            <span>CSS</span>
             <span>JavaScript</span>
+            <span>Node.js</span>
+            <span>SQLite</span>
           </div>
 
           <div className="project-links">
