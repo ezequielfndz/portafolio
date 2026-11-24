@@ -11,62 +11,18 @@ function Projects() {
         </p>
       </div>
 
-      <article className="project-card">
+      <article className="project-card">        
         <div className="project-preview">
           <div className="project-preview-header">
             <span>ATRAPADOS ENTRE TELAS / E-COMMERCE</span>
             <span>01 — 2026</span>
           </div>
 
-          <div className="store-preview">
-            <header className="store-preview-header">
-              <span className="store-preview-logo">
-                ATRAPADOS
-                <strong>ENTRE TELAS</strong>
-              </span>
-
-              <nav className="store-preview-nav">
-                <span>INICIO</span>
-                <span>PRODUCTOS</span>
-                <span>CONTACTO</span>
-              </nav>
-
-              <span className="store-preview-cart">
-                CARRITO (0)
-              </span>
-            </header>
-
-            <div className="store-preview-hero">
-              <p>COLECCIÓN / 2026</p>
-              <h3>Encontrá tu próximo favorito.</h3>
-              <span>Descubrí nuestra colección.</span>
-            </div>
-
-            <div className="store-preview-products">
-              <div className="store-product">
-                <div className="store-product-image">
-                  <span>01</span>
-                </div>
-                <span>PRODUCTO DESTACADO</span>
-                <strong>Tu próximo favorito</strong>
-              </div>
-
-              <div className="store-product">
-                <div className="store-product-image">
-                  <span>02</span>
-                </div>
-                <span>NUEVA COLECCIÓN</span>
-                <strong>Diseño y estilo</strong>
-              </div>
-
-              <div className="store-product">
-                <div className="store-product-image">
-                  <span>03</span>
-                </div>
-                <span>DESTACADOS</span>
-                <strong>Explorá la tienda</strong>
-              </div>
-            </div>
+          <div className="project-image-wrapper">
+            <img
+              src="/images/atrapados-preview.png"
+              alt="Página principal de Atrapados Entre Telas"
+            />
           </div>
         </div>
 
