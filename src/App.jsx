@@ -5,6 +5,7 @@ import About from "./components/About";
 import TechStack from "./components/TechStack";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 import "./App.css";
 
@@ -21,16 +22,7 @@ function App() {
         <Contact />
       </main>
 
-      <footer className="footer">
-        <p>© 2026 Ezequiel · Designed & developed with React.</p>
-        <a
-          href="https://github.com/ezequielfndz"
-          target="_blank"
-          rel="noreferrer"
-        >
-          GitHub ↗
-        </a>
-      </footer>
+      <Footer />
     </>
   );
 }

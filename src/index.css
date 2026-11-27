@@ -1,5 +1,19 @@
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap');
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter-latin-wght-normal.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Mono';
+  src: url('/fonts/dm-mono-latin-400-normal.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 
 :root {
   font-family: 'Inter', sans-serif;
@@ -15,6 +29,7 @@
 
   --accent: #A94A5D;
   --accent-hover: #C15B70;
+  --accent-text: #D17B8D;
   --accent-soft: rgba(169, 74, 93, 0.14);
 
   --silver: #C5C8D0;

@@ -11,21 +11,7 @@ function Projects() {
         </p>
       </div>
 
-      <article className="project-card">        
-        <div className="project-preview">
-          <div className="project-preview-header">
-            <span>ATRAPADOS ENTRE TELAS / E-COMMERCE</span>
-            <span>01 — 2026</span>
-          </div>
-
-          <div className="project-image-wrapper">
-            <img
-              src="/images/atrapados-preview.png"
-              alt="Página principal de Atrapados Entre Telas"
-            />
-          </div>
-        </div>
-
+      <article className="project-card">
         <div className="project-information">
           <div className="project-title-row">
             <div>
@@ -77,7 +63,29 @@ function Projects() {
             </span>
           </div>
         </div>
+
+        <div className="project-preview">
+          <div className="project-preview-header">
+            <span>ATRAPADOS ENTRE TELAS / E-COMMERCE</span>
+            <span>01 — 2026</span>
+          </div>
+
+          <div className="project-image-wrapper">
+              <img
+                src="/images/atrapados-preview.webp"
+                srcSet="
+                  /images/atrapados-preview-640.webp 640w,
+                  /images/atrapados-preview.webp 1200w
+                "
+                sizes="(max-width: 700px) 100vw, 615px"
+                alt="Página principal de Atrapados Entre Telas"
+                width="1200"
+                height="899"
+              />
+          </div>
+        </div>
       </article>
+
     </section>
   );
 }
