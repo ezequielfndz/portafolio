@@ -63,7 +63,7 @@ El proyecto se desarrolla de forma incremental, utilizando sprints para organiza
 - [x] Revisar estados de foco del teclado.
 - [x] Validar diferentes resoluciones y tablets.
 - [x] Mejorar los aspectos pendientes de accesibilidad.
-- [ ] Revisar animaciones y transiciones.
+- [x] Revisar animaciones y transiciones.
 - [ ] Realizar una revisión general de experiencia de usuario.
 
 ---
