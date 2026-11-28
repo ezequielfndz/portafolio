@@ -85,8 +85,7 @@
   box-shadow: 0 0 12px #A94A5D80;
 }
 
-.hero-eyebrow,
-.placeholder-section > p {
+.hero-eyebrow {
   font-family: 'DM Mono', monospace;
   font-size: 11px;
   letter-spacing: 2px;
@@ -247,17 +246,7 @@
   }
 }
 
-.placeholder-section {
-  width: min(1120px, 90%);
-  margin: 0 auto;
-  padding: 90px 0;
-  border-top: 1px solid var(--border);
-}
 
-.placeholder-section h2 {
-  font-size: 30px;
-  letter-spacing: -1px;
-}
 
 @media (max-width: 850px) {
   .hero {
@@ -855,13 +844,7 @@
   background: var(--border);
 }
 
-.tech-complementary-label {
-  margin-bottom: 10px;
-  color: var(--text-secondary);
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 1.2px;
-}
+
 
 .tech-main-item {
   display: inline-flex;
