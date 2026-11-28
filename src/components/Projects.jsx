@@ -80,7 +80,10 @@ function Projects() {
                 sizes="(max-width: 700px) 100vw, 615px"
                 alt="Página principal de Atrapados Entre Telas"
                 width="1200"
-                height="899"
+                height="899
+                "
+                loading="lazy"
+                decoding="async"
               />
           </div>
         </div>
