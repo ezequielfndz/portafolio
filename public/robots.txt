@@ -1,3 +1,4 @@
-
 User-agent: *
 Allow: /
+
+Sitemap: https://ezequielfndz.vercel.app/sitemap.xml

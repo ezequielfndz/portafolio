@@ -61,8 +61,8 @@ El proyecto se desarrolla de forma incremental, utilizando sprints para organiza
 - [x] Revisar la navegación y los elementos interactivos.
 - [x] Validar la visualización en resolución móvil de 390px.
 - [x] Revisar estados de foco del teclado.
-- [ ] Validar diferentes resoluciones y tablets.
-- [ ] Mejorar los aspectos pendientes de accesibilidad.
+- [x] Validar diferentes resoluciones y tablets.
+- [x] Mejorar los aspectos pendientes de accesibilidad.
 - [ ] Revisar animaciones y transiciones.
 - [ ] Realizar una revisión general de experiencia de usuario.
 
@@ -112,8 +112,8 @@ El proyecto se desarrolla de forma incremental, utilizando sprints para organiza
 - [x] Documentar el proyecto mediante README y Roadmap.
 - [x] Configurar elementos iniciales de SEO.
 - [ ] Realizar pruebas finales.
-- [ ] Configurar el despliegue en Vercel.
-- [ ] Publicar el portafolio.
+- [x] Configurar el despliegue en Vercel.
+- [x] Publicar el portafolio.
 - [ ] Validar la versión de producción.
 
 ---

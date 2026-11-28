@@ -11,6 +11,8 @@ Este portafolio es un proyecto personal que busca presentar mi perfil como desar
 
 Además de construir una web funcional, este proyecto me permite poner en práctica buenas prácticas de desarrollo, organización de componentes, diseño responsive, control de versiones y despliegue.
 
+**Demo:** https://ezequielfndz.vercel.app/
+
 ## Tecnologías
 
 - React
@@ -49,11 +51,11 @@ El flujo de trabajo contempla:
 - [x] Configuración inicial con Vite y React
 - [x] Estructura de componentes
 - [x] Secciones principales
-- [ ] Identidad visual Burgundy & Silver
+- [x] Identidad visual Burgundy & Silver
 - [ ] Mejoras responsive y UX
 - [ ] Contenido profesional y CV
-- [ ] Integración de proyectos
-- [ ] Despliegue
+- [x] Integración de proyectos
+- [x] Despliegue
 
 El progreso detallado se encuentra en [docs/ROADMAP.md](docs/ROADMAP.md).
 
