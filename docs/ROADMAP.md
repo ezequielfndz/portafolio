@@ -111,10 +111,10 @@ El proyecto se desarrolla de forma incremental, utilizando sprints para organiza
 - [x] Mantener un historial de commits descriptivo.
 - [x] Documentar el proyecto mediante README y Roadmap.
 - [x] Configurar elementos iniciales de SEO.
-- [ ] Realizar pruebas finales.
+- [x] Realizar pruebas finales.
 - [x] Configurar el despliegue en Vercel.
 - [x] Publicar el portafolio.
-- [ ] Validar la versión de producción.
+- [x] Validar la versión de producción.
 
 ---
 
