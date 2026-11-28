@@ -17,7 +17,7 @@ function Contact() {
 
       <div className="contact-actions">
         <a
-          href="mailto:ezequielfndz98@gmail.com?subject=Contacto%20profesional"
+          href="mailto:ezequielfndz@gmail.com?subject=Contacto%20profesional"
           className="button-primary"
         >
           <span>Enviarme un correo</span>
@@ -25,7 +25,7 @@ function Contact() {
         </a>
 
         <a
-          href="https://github.com/ezequelfndz"
+          href="https://github.com/ezequielfndz"
           target="_blank"
           rel="noreferrer"
           className="button-secondary"
@@ -36,8 +36,8 @@ function Contact() {
 
       <div className="contact-email">
         <span>GMAIL</span>
-        <a href="mailto:ezequelfndz98@gmail.com">
-          ezequelfndz98@gmail.com
+        <a href="mailto:ezequielfndz@gmail.com">
+          ezequielfndz@gmail.com
         </a>
       </div>
 
