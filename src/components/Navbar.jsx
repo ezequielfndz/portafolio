@@ -7,7 +7,7 @@ function Navbar() {
         ezequiel<span className="logo-muted">.dev</span>
       </a>
 
-    <nav className="navbar-links">
+    <nav className="navbar-links" aria-label="Navegación principal">
         <a href="#inicio">Inicio</a>
         <a href="#sobre-mi">Sobre mí</a>
         <a href="#tecnologias">Tecnologías</a>

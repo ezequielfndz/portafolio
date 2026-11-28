@@ -941,3 +941,36 @@
     object-fit: contain;
   }
 }
+
+
+.skip-link {
+  position: absolute;
+  top: -60px;
+  left: 16px;
+  z-index: 100;
+  padding: 10px 14px;
+  border-radius: 6px;
+  background: var(--accent);
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  top: 16px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .terminal-cursor {
+    animation: none;
+  }
+
+  .button-primary:hover,
+  .button-secondary:hover {
+    transform: none;
+  }
+}

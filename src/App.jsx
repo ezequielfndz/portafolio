@@ -12,9 +12,13 @@ import "./App.css";
 function App() {
   return (
     <>
+        <a href="#contenido" className="skip-link">
+        Saltar al contenido
+      </a>
+
       <Navbar />
 
-      <main>
+      <main id="contenido">
         <Hero />
         <About />
         <TechStack />

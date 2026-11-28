@@ -44,7 +44,7 @@ function Hero() {
       </div>
 
       <div className="hero-decoration">
-        <div className="terminal-window">
+        <div className="terminal-window" aria-hidden="true">
           <div className="terminal-header">
             <div className="terminal-dots">
               <span></span>
