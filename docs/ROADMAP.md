@@ -102,7 +102,7 @@ El proyecto se desarrolla de forma incremental, utilizando sprints para organiza
 
 ## Sprint 7 — GitHub y despliegue
 
-**Estado:** En progreso
+**Estado:** Completado
 
 ### Objetivos
 
