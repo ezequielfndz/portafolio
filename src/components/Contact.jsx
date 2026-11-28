@@ -17,7 +17,7 @@ function Contact() {
 
       <div className="contact-actions">
         <a
-          href="mailto:ezequielfndz@gmail.com?subject=Contacto%20profesional"
+          href="mailto:ezequielfndz98@gmail.com?subject=Contacto%20profesional"
           className="button-primary"
         >
           <span>Enviarme un correo</span>
@@ -36,8 +36,8 @@ function Contact() {
 
       <div className="contact-email">
         <span>GMAIL</span>
-        <a href="mailto:ezequielfndz@gmail.com">
-          ezequielfndz@gmail.com
+        <a href="mailto:ezequielfndz98@gmail.com">
+          ezequielfndz98@gmail.com
         </a>
       </div>
 

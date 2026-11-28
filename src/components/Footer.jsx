@@ -27,7 +27,7 @@ function Footer() {
             GitHub ↗
           </a>
 
-          <a href="mailto:ezequielfndz@gmail.com">
+          <a href="mailto:ezequielfndz98@gmail.com">
             Email ↗
           </a>
         </div>
